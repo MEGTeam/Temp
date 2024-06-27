@@ -1,0 +1,145 @@
+* {
+    box-sizing: border-box;
+    -os-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    --primary-color: #28CB8B;
+    --secondary-color: #263238;
+    --info-color: #263238;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+/*second-sec*/
+.sec-background {
+    width: 100%;
+    height: 416.95px;
+    padding: 66.82px 100.23px 66.82px 100.23px;
+    background-color: #F5F7FA;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.sec-background div:first-of-type {
+    width: 457.32px;
+    height: 192.9px;
+    display: flex;
+    flex-direction: column;
+}
+
+.sec-background div:first-of-type p:nth-child(1) {
+    font-size: 44.55px;
+    font-weight: 600;
+    color: #4D4D4D;
+    line-height: 52.9px;
+}
+
+.sec-background div:first-of-type p:nth-child(2) {
+    color: var(--primary-color);
+    font-weight: 600;
+    font-size: 44.55px;
+    line-height: 52.9px;
+    margin-bottom: 11.14px;
+}
+
+.sec-background div:first-of-type p:nth-child(3) {
+    color: #717171;
+    font-weight: 400;
+    font-size: 11.14px;
+    line-height: 16.71px;
+}
+
+.sec-background div:first-of-type button {
+    width: 88.55px;
+    height: 36.49px;
+    border-radius: 2.78px;
+    padding: 9.74px 22.27px 9.74px 22.27px;
+    margin-top: 22.27px;
+    border: none;
+    background-color: #4CAF4F;
+    color: #FFFFFF;
+    font-size: 11.14px;
+    line-height: 16.71px;
+    text-align: center;
+    font-weight: 500;
+}
+
+.sec-background div:first-of-type button:focus {
+    outline: solid 2px #4D4D4D;
+}
+
+.sec-background div:nth-child(2) {
+    width: 272.16px;
+    height: 283.3px;
+    background-image: url(../images/sec-2.png);
+}
+
+/*fifth-sec*/
+.fifth-sec {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height: 301.4px;
+    padding: 0px 100.23px 0px 100.23px;
+}
+
+.fifth-sec div:first-child {
+    background-image: url(../images/sec-5.png);
+    width: 307.66px;
+    height: 301.4px;
+}
+
+.fifth-sec div:nth-child(2) {
+    width: 460.1px;
+    height: 187.9px;
+    font-display: flex;
+    flex-direction: column;
+}
+
+.fifth-sec div:nth-child(2) p:first-child {
+    margin-bottom: 22.27px;
+    font-weight: 600;
+    font-size: 25.06px;
+    line-height: 30.63px;
+    color:#4D4D4D;
+    width: 418.34px;
+    height: 62px;
+}
+
+.fifth-sec div:nth-child(2) p:nth-child(2){
+    width: 418.34px;
+    height: 56px;
+    font-weight: 400;
+    font-size: 9.74px;
+    line-height: 13.92px;
+    color: #717171;
+}
+
+.fifth-sec div:nth-child(2) button{
+    width: 105.55px;
+    height: 36.49px;
+    border-radius: 2.78px;
+    padding: 9.74px 22.27px 9.74px 22.27px;
+    margin-top: 18.1px;
+    background-color: #4CAF4F;
+    font-weight: 500;
+    font-size: 11.14px;
+    line-height: 16.71px;
+    text-align: center;
+    color: #FFFFFF;
+    border: none;
+}
+
+.fifth-sec div:nth-child(2) button:focus {
+    outline: solid 2px #4D4D4D;
+}
