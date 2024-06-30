@@ -13,12 +13,62 @@
     --primary-color: #28CB8B;
     --secondary-color: #263238;
     --info-color: #263238;
+<<<<<<< HEAD
+    --brand-primary: #4CAF4F;
+    --neutral-d-grey: #4D4D4D;
+    --neutral-grey: #717171;
     --neutral-silver: #F5F7FA;
+    --container-padding: 100px;
+=======
+    --neutral-silver: #F5F7FA;
+>>>>>>> 657289b61afd35c14837d2aba0479d480219dac0
 }
 
 button:hover {
     cursor: pointer;
 }
+
+/* header */
+header{
+    position: sticky;
+    top: 0;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: var(--container-padding);
+    padding-block: 11px;
+}
+
+header ul{
+    list-style: none;
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+header ul a{
+    text-decoration: none;
+    font-weight: 600;
+    color: var(--neutral-d-grey);
+}
+
+header ul button{
+    padding: 9.5px 22px;
+    font-size: 16px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5.5px;
+    border: none;
+    border-radius: 2.78px;
+    background-color: var(--brand-primary);
+    color: #ffffff;
+
+}
+/* end header */
 
 /*second-sec*/
 .sec-background {
@@ -86,6 +136,31 @@ button:hover {
     background-image: url(../images/sec-2.png);
 }
 
+/* our-clients */
+.our-clients{
+    padding-inline: var(--container-padding);
+    margin-block: 27px;
+    text-align: center;
+    color: var(--neutral-d-grey);
+    display: flex;
+    flex-direction: column;
+    gap: 11px;
+}
+
+.our-clients .text-container{
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.our-clients .icons-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-block: 17px;
+}
+/* end our-clients */
+
 /*fifth-sec*/
 .fifth-sec {
     display: flex;
@@ -148,6 +223,69 @@ button:hover {
     outline: solid 2px #4D4D4D;
 }
 
+<<<<<<< HEAD
+/* helping-local-brands */
+.helping-local-brands{
+    padding: 45px var(--container-padding);
+    background-color: var(--neutral-silver);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.helping-local-brands .sec-1 h2{
+    font-size: 25px;
+    color: var(--brand-primary);
+    line-height: 30px;
+}
+
+.helping-local-brands .sec-1 h2:first-of-type{
+    color: var(--neutral-d-grey);
+}
+
+.helping-local-brands .sec-1 p{
+    margin-top: 5.5px;
+}
+
+.helping-local-brands .sec-2{
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+}
+
+.helping-local-brands .sec-2 .row{
+    display: flex;
+    gap: 21px;
+    align-items: center;
+    justify-content: center;
+}
+
+.helping-local-brands .sec-2 .row .row-item{
+    display: flex;
+    gap: 11.5px;
+    align-items: center;
+    justify-content: flex-start;
+    color: var(--neutral-d-grey);
+}
+
+.helping-local-brands .sec-2 .row .row-item .text-container{
+    min-width: 132px;
+}
+
+.helping-local-brands .sec-2 .row .row-item .text-container h4{
+    font-size: 19.5px;
+    line-height: 25px;  
+    font-weight: bold;  
+}
+
+.helping-local-brands .sec-2 .row .row-item .text-container p{
+    font-size: 11px;
+    color: var(--neutral-grey);
+}
+
+
+/* end helping-local-brands */
+=======
 /* Footer Section */
 
 
@@ -280,3 +418,4 @@ button:hover {
 
 
 
+>>>>>>> 657289b61afd35c14837d2aba0479d480219dac0
