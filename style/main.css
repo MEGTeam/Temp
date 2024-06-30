@@ -175,6 +175,10 @@ button:hover {
     margin-bottom: 40px;
 }
 
+.demo-btn:focus{
+    outline: solid 2px #4D4D4D;
+}
+
 .demo-btn:hover{
     cursor: pointer;
 }
